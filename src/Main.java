@@ -4,7 +4,6 @@
 
 import Zoo.ZooPark;
 // import Zoo.Creatures.ZooCreatures;
-import Zoo.Keeper.ZooKeeper;
 
 
 // class Animal {
@@ -93,8 +92,8 @@ import Zoo.Keeper.ZooKeeper;
 public class Main{
     public static void main(String[] args) {
         System.out.println("Welcome to ZooPark");
-        ZooPark zooPark = new ZooKeeper();
-       zooPark.doAction();
+        ZooPark zooPark = new ZooPark();
+        zooPark.open();
         
     }
 }

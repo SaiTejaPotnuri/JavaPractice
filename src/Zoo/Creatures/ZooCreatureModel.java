@@ -1,8 +1,7 @@
 package Zoo.Creatures;
 
-import Zoo.ZooPark;
 
-public class ZooCreatureModel extends ZooPark {
+public class ZooCreatureModel  {
 
     
     public int code;
